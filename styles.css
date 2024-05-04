@@ -73,6 +73,30 @@ form button[type="submit"]:hover, .recipe button:hover, .recipe-close-btn:hover
     max-width: 350px;
     transition: transform 0.3 ease-in-out; /* for speed of image coming up on taking cursor to it */
 }
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBox {
+    width: 300px; /* Adjust width as needed */
+    margin-right: 10px; /* Add some space between input field and button */
+}
+
+.searchBtn {
+    background-color: #f44336; /* Example color, you can adjust */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; /* for making the corners soft */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* when we are hovering on the search bar then the background-color is changing very rapidly so we want that the color should change but not so rapidly. */
+}
+
+.searchBtn:hover {
+    background-color: #ff5c5c; /* Example hover color, you can adjust */
+}
 .recipe:hover{
     transform: scale(1.02);    /* when we take cursor to the image then it comes bit up */
 }
