@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="styles.css">
    
     <title>My Recipe App</title>
+    <style>
+        /* Add background image to body */
+        body {
+            background-image: url('bbb.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,7 +25,7 @@
              <h1>Recipe App</h1>
              <form> 
                 <!-- form->to create a search box. actions removed from it because we are not going to submit the search. -->
-                <input type="text" placeholder="Search your favourite recipes..." class="searchBox"/>
+                <input type="text" placeholder="eg. cakes..." class="searchBox"/>
                 <button type="submit" class="searchBtn">Search</button>
              </form>
         </nav>
