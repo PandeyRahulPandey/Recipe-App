@@ -13,7 +13,7 @@ Features:
 3. Responsive Design: The website is designed to work seamlessly on different devices, including desktops, tablets, and smartphones.
 
 4. User-Friendly Interface: The interface is intuitive and easy to navigate, making it accessible to users of all levels.
-5. 
+ 
 ![Screenshot (24)](https://github.com/PandeyRahulPandey/Recipe-App/assets/118816805/3e095343-94fb-41b2-9208-f01b59d31ee9)
 
 
